@@ -1,0 +1,103 @@
+﻿Build started 11/23/2021 10:30:04 PM.
+     1>Project "C:\Users\dujem\Documents\Visual Studio 2013\Projects\oop_vjezbe\v5_zad4\v5_zad4.vcxproj" on node 8 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\v5_zad1\Target.cpp ..\v5_zad1\Weapon.cpp Zadatak4.cpp
+         Zadatak4.cpp
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad4\zadatak4.cpp(1): fatal error C1083: Cannot open include file: 'Weapon.cpp': No such file or directory
+         Weapon.cpp
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6): error C2011: 'PointPosition' : 'class' type redefinition
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(7): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(11): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(16): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(21): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(25): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(29): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(30): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(31): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(34): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(35): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(38): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(39): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(42): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(43): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(46): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(49): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(49): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(52): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2661: 'hypot' : no overloaded function takes 1 arguments
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.h(10): error C2079: 'Weapon::weaponPosition' uses undefined class 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.h(11): error C2079: 'Weapon::shotFired' uses undefined class 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.cpp(17): error C2228: left of '.setRandomPosition' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.cpp(32): error C2228: left of '.setRandomPosition' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\weapon.cpp(37): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+         Target.cpp
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6): error C2011: 'PointPosition' : 'class' type redefinition
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(7): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(11): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(16): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(21): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(25): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(29): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(30): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(31): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(34): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(35): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(38): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(39): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(42): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(43): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(46): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(49): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(49): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(52): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2065: 'x' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2065: 'y' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2661: 'hypot' : no overloaded function takes 1 arguments
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.cpp(55): error C2065: 'z' : undeclared identifier
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.h(8): error C2079: 'Target::bottomLeft' uses undefined class 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.h(9): error C2079: 'Target::upperRight' uses undefined class 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(9): error C2228: left of '.setRandomPosition' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(14): error C2228: left of '.setRandomPosition' must have class/struct/union
+                 type is 'int'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(18): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+     1>c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\target.cpp(23): error C2027: use of undefined type 'PointPosition'
+                 c:\users\dujem\documents\visual studio 2013\projects\oop_vjezbe\v5_zad1\pointposition.h(6) : see declaration of 'PointPosition'
+         Generating Code...
+     1>Done Building Project "C:\Users\dujem\Documents\Visual Studio 2013\Projects\oop_vjezbe\v5_zad4\v5_zad4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.46
