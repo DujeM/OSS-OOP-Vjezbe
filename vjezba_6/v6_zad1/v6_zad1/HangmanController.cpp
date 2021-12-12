@@ -16,9 +16,10 @@ char HangmanController::userEntry()
 	return input;
 }
 
-void HangmanController::checkLetter(string movie, string currentInput, char input)
+bool HangmanController::checkLetter(string movie, string& currentInput, char input)
 {
 	vector<int> characterLocations;
+	string temp = currentInput;
 
 	for (int i = 0; i < movie.size(); i++)
 	{
@@ -27,14 +28,11 @@ void HangmanController::checkLetter(string movie, string currentInput, char inpu
 			currentInput[i] = input;
 		}
 	}
+
+	return 1;
 }
 
-void HangmanController::updateLives()
+bool HangmanController::checkIfGameIsOver(int lives)
 {
-
-}
-
-int HangmanController::checkIfGameIsOver(int lives)
-{
-	return 0;
+	return lives == 0 ? true : false;
 }

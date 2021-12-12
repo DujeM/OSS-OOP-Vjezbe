@@ -5,9 +5,9 @@ using namespace std;
 
 class HangmanController
 {
-	public:
-		char userEntry();
-		void checkLetter(string movie, string currentInput, char input);
-		void updateLives();
-		int checkIfGameIsOver(int lives);
+public:
+	char userEntry();
+	bool checkLetter(string movie, string& currentInput, char input);
+	void updateLives();
+	bool checkIfGameIsOver(int lives);
 };
