@@ -37,6 +37,8 @@ Board::Board(int cols, int rows, char border)
 Board::Board(const Board &b) 
 {
 	board = b.board;
+	x = b.x;
+	y = b.y;
 }
 
 Board::~Board()
@@ -46,19 +48,29 @@ Board::~Board()
 
 void Board::draw_line(Point p1, Point p2, char ch)
 {
-	while (p1.x < p2.x && p1.y < p2.y)
+	while (p1.x != p2.x || p1.y != p2.y)
 	{
-		board[p1.x][p1.y] = ch;
+		board[p1.y][p1.x] = ch;
 
-		if (p1.x < p2.x)
+		if (p1.x != p2.x)
 		{
 			p1.x++;
 		}
 
-		if (p1.y < p2.y)
+		if (p1.y != p2.y)
 		{
 			p1.y++;
 		}
+	}
+
+}
+
+void Board::draw_up_line(Point p1, char ch)
+{
+	while (p1.y > 0)
+	{
+		board[p1.y][p1.x] = ch;
+		p1.y--;
 	}
 
 }

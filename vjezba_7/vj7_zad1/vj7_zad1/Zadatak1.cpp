@@ -9,6 +9,6 @@ int main()
 
 	b.draw_line(p1, p2, 'x');
 	b.draw_line(p3, p4, 'x');
-
+	b.draw_up_line(p4, 'x');
 	b.display();
 }

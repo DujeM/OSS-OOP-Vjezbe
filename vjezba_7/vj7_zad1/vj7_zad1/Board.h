@@ -20,4 +20,5 @@ public:
 	int getX();
 	int getY();
 	void draw_line(Point p1, Point p2, char ch);
+	void draw_up_line(Point p1, char ch);
 };
