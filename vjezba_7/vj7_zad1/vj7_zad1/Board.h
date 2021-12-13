@@ -13,6 +13,7 @@ private:
 public:
 	Board(int x, int y, char border);
 	Board(const Board &b);
+	~Board();
 	void display();
 	void setX(int rows);
 	void setY(int cols);

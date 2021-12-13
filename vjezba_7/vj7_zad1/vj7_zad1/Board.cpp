@@ -22,7 +22,7 @@ Board::Board(int cols, int rows, char border)
 	{
 		for (int j = 0; j < y; j++)
 		{
-			if ((i == 0 || i == x-1) || (j == 0 || j == y-1))
+			if ((i == 0 || i == x - 1) || (j == 0 || j == y - 1))
 			{
 				board[i][j] = border;
 			}
@@ -34,29 +34,33 @@ Board::Board(int cols, int rows, char border)
 	}
 }
 
-Board::Board(const Board &b)
+Board::Board(const Board &b) 
 {
-
+	board = b.board;
 }
 
-void Board::draw_line(Point p1, Point p2, char ch) 
+Board::~Board()
 {
+	delete[] board;
+}
 
-	while (p1.x <= p2.x && p1.y <= p2.y)
+void Board::draw_line(Point p1, Point p2, char ch)
+{
+	while (p1.x < p2.x && p1.y < p2.y)
 	{
 		board[p1.x][p1.y] = ch;
 
-		if (p1.x < x ) 
+		if (p1.x < p2.x)
 		{
 			p1.x++;
 		}
 
-		if (p1.y < y)
+		if (p1.y < p2.y)
 		{
 			p1.y++;
 		}
 	}
-	
+
 }
 
 void Board::display()
