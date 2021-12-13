@@ -15,28 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HangmanModel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HangmanView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HangmanController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HangmanModel.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HangmanView.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HangmanController.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="Zadatak1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
