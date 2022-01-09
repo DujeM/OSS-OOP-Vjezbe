@@ -22,9 +22,9 @@ int main() {
 		cout << double(tm - tmax) << endl;
 
 //	// penaliziranje vozaca s m sekundi (funkcijski objekt)
-//	penalty p(5);
-//	for (auto& tm : v)
-//		p(tm);
+	//penalty p(5);
+	//for (auto& tm : v)
+	//	p(tm);
 }
 
 /*

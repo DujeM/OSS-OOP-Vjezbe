@@ -27,18 +27,7 @@ ostream& operator<<(ostream& os, const Timer& t) {
 }
 
 bool Timer::operator<(Timer& t) {
-	if (t.h < h) {
-		return t.h < h;
-	}
-
-	if (t.m < m) {
-		return t.m < m;
-	}
-
-	if (t.m < m) {
-		return t.m < m;
-	}
-	return false;
+	return (t.h < h || t.m < m || t.s < s);
 }
 
 Timer& Timer::operator-(Timer& t) {
