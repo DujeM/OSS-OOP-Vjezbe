@@ -7,10 +7,10 @@ using namespace std;
 int main() {
 	Game game;
 
-	game.addAPlayer();
-	game.addAPlayer();
-	game.addAPlayer();
-	game.addAPlayer();
+	game.addAHumanPlayer();
+	game.addAHumanPlayer();
+	game.addAComputerPlayer();
+	game.addAComputerPlayer();
 
 	while (game.GetGameProgress())
 	{

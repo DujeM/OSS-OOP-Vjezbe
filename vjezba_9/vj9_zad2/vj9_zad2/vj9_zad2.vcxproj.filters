@@ -15,28 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Zadatak1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="IAnimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Insect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vrabac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zohar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tarantula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HumanPlayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ComputerPlayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="Zadatak2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,7 +11,8 @@ private:
 	int currentTotal = 0;
 	bool inProgress = true;
 public:
-	void addAPlayer();
+	void addAHumanPlayer();
+	void addAComputerPlayer();
 	void setRequiredScore(int score);
 	void playersSetCoins();
 	void guessTheNumber();

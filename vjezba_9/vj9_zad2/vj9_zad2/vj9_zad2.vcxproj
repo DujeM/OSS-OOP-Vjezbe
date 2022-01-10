@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FEE0D116-ABC6-406F-A4CB-E983F3A2E4F5}</ProjectGuid>
+    <ProjectGuid>{6BDBA8CB-4392-403B-AA6F-8268CBE86F96}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>vj9_zad1</RootNamespace>
+    <RootNamespace>vj9_zad2</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,15 +78,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Zadatak1.cpp" />
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="Counter.h" />
+    <ClInclude Include="IAnimal.h" />
+    <ClInclude Include="Insect.h" />
+    <ClInclude Include="Spider.h" />
+    <ClInclude Include="Tarantula.h" />
+    <ClInclude Include="Vrabac.h" />
+    <ClInclude Include="Zohar.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ComputerPlayer.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="HumanPlayer.h" />
-    <ClInclude Include="Player.h" />
+    <ClCompile Include="Counter.cpp" />
+    <ClCompile Include="Zadatak2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
