@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6B855C34-2157-4AAA-A79B-AB695730ADFA}</ProjectGuid>
+    <ProjectGuid>{1B48826A-6474-45CA-8C59-8A29254B07DC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>vj10_zad1</RootNamespace>
+    <RootNamespace>vj10_zad2</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Zadatak1.cpp" />
+    <ClCompile Include="Zadatak2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TemplateStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
